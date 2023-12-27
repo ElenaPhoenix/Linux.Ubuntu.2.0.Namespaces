@@ -73,6 +73,7 @@ mysql -u root -p
 0000 # пароль
 create database my_first_db;
 show databases;
+exit
 
 ######################## Установка phpmyadmin - интерфейс для менеджмента баз данных
 docker run --name db_phpmyadmin --link db_mariadb:db -p 8081:80 -d phpmyadmin/phpmyadmin
